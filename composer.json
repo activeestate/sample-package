@@ -1,0 +1,24 @@
+{
+    "name": "active-estate/sample",
+    "description": "Sample PHP package",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "MIT",
+    "autoload":{
+        "psr-4": {
+            "ActiveEstate\\Sample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Khaled Elmahdi",
+            "email": "khaled@elmahdi.uk"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
